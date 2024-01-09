@@ -6,7 +6,7 @@
         msg: Hello
 
 - name: Just to say Bye
-  hosts: licalhost
+  hosts: localhost
   tasks:
     - name: Say Bye
       ansible.builtin.debug:
